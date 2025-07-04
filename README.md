@@ -1,1 +1,73 @@
 # Treasure-Hunt-
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>神秘任务抽卡</title>
+    <style>
+        body {
+            font-family: 'Microsoft YaHei', sans-serif;
+            background-color: #f5f5f5;
+            color: #333;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            color: #8e44ad;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .game-container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 25px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+        .rules {
+            margin-bottom: 30px;
+        }
+        .rule-item {
+            margin-bottom: 15px;
+            padding-left: 20px;
+            position: relative;
+            line-height: 1.6;
+        }
+        .rule-item:before {
+            content: "•";
+            color: #8e44ad;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+        }
+        .task-title {
+            text-align: center;
+            font-size: 1.3em;
+            color: #e74c3c;
+            margin: 25px 0 15px;
+        }
+        .highlight {
+            font-weight: bold;
+            color: #e74c3c;
+        }
+        .emoji {
+            font-size: 1.2em;
+            margin-right: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>神秘任务抽卡</h1>
+    
+    <div class="game-container">
+        <div class="rules">
+            <div class="rule-item">桌上会放着一个纸盒，盒里有<span class="highlight">编号的乒乓球</span>，每组抽<span class="highlight">4个</span></div>
+            <div class="rule-item">玩家需带着有编号的乒乓球和<span class="highlight">工委兑换</span>他们所需做的任务</div>
+        </div>
+        
+        <div class="task-title">
+            <span class="emoji">🎯</span> 寻宝任务抽签
+        </div>
+    </div>
+</body>
+</html>
